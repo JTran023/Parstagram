@@ -128,6 +128,10 @@
                         <viewLayoutGuide key="safeArea" id="SmO-g1-Lv1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="commentField" destination="ndc-vP-kjc" id="bao-oY-nNQ"/>
+                        <outlet property="imageView" destination="Vt1-iN-NBI" id="zyb-jz-NWG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BVN-fy-Yfk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -8,7 +8,14 @@
 import UIKit
 
 class CameraViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var commentField: UITextField!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
