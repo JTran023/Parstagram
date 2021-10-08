@@ -23,7 +23,9 @@ class CameraViewController: UIViewController {
         
     }
     
-
+    @IBAction func onCameraButton(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
