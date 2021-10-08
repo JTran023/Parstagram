@@ -100,10 +100,10 @@
             </objects>
             <point key="canvasLocation" x="1556.9230769230769" y="71.800947867298575"/>
         </scene>
-        <!--View Controller-->
+        <!--Camera View Controller-->
         <scene sceneID="JN1-Fi-VoG">
             <objects>
-                <viewController id="ia7-Er-f1c" sceneMemberID="viewController">
+                <viewController id="ia7-Er-f1c" customClass="CameraViewController" customModule="Parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sSy-l2-gFr">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
