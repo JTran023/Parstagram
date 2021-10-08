@@ -88,11 +88,32 @@
                         <viewLayoutGuide key="safeArea" id="k2f-ec-8hc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zTu-mu-HKg"/>
+                    <navigationItem key="navigationItem" id="zTu-mu-HKg">
+                        <barButtonItem key="rightBarButtonItem" title="Camera" image="insta_camera_btn" id="EMc-sa-cLR">
+                            <connections>
+                                <segue destination="ia7-Er-f1c" kind="presentation" id="q6S-2D-BPi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="swC-rv-VTz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1556.9230769230769" y="71.800947867298575"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JN1-Fi-VoG">
+            <objects>
+                <viewController id="ia7-Er-f1c" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sSy-l2-gFr">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="SmO-g1-Lv1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BVN-fy-Yfk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2389" y="72"/>
         </scene>
         <!--Feed Navigation Controller-->
         <scene sceneID="5G0-d8-fpi">
@@ -114,6 +135,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="insta_camera_btn" width="25" height="25"/>
         <image name="instagram_logo" width="255" height="108"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
