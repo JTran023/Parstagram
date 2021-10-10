@@ -85,6 +85,54 @@
                     <view key="view" contentMode="scaleToFill" id="AV3-wc-K2T">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="W2Z-SL-kyQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="318" id="lg7-VV-yfx">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="318"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lg7-VV-yfx" id="fRx-mY-QcI">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="318"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wqy-tB-i20">
+                                                    <rect key="frame" x="8" y="8" width="398" height="273"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Wqy-tB-i20" secondAttribute="height" multiplier="398:273" id="Ia1-pM-NPa"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Author" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jH6-jy-hWX">
+                                                    <rect key="frame" x="8" y="289" width="52" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Author's Comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Cy-88-zM4">
+                                                    <rect key="frame" x="68" y="289" width="144" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="0Cy-88-zM4" secondAttribute="bottom" constant="8" id="2D2-lC-SBR"/>
+                                                <constraint firstItem="jH6-jy-hWX" firstAttribute="top" secondItem="Wqy-tB-i20" secondAttribute="bottom" constant="8" id="5B4-Z3-ud7"/>
+                                                <constraint firstAttribute="trailing" secondItem="0Cy-88-zM4" secondAttribute="trailing" constant="8" id="CIc-hW-KWg"/>
+                                                <constraint firstItem="jH6-jy-hWX" firstAttribute="leading" secondItem="fRx-mY-QcI" secondAttribute="leading" constant="8" id="N9L-Gc-f22"/>
+                                                <constraint firstItem="0Cy-88-zM4" firstAttribute="leading" secondItem="jH6-jy-hWX" secondAttribute="trailing" constant="8" id="Pju-rv-xqi"/>
+                                                <constraint firstItem="Wqy-tB-i20" firstAttribute="leading" secondItem="fRx-mY-QcI" secondAttribute="leading" constant="8" id="biM-4J-JZ2"/>
+                                                <constraint firstItem="Wqy-tB-i20" firstAttribute="top" secondItem="fRx-mY-QcI" secondAttribute="top" constant="8" id="hlq-m8-2og"/>
+                                                <constraint firstItem="0Cy-88-zM4" firstAttribute="top" secondItem="Wqy-tB-i20" secondAttribute="bottom" constant="8" id="lOh-8J-iKw"/>
+                                                <constraint firstAttribute="trailing" secondItem="Wqy-tB-i20" secondAttribute="trailing" constant="8" id="xeJ-Vz-bYq"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="k2f-ec-8hc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -98,7 +146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="swC-rv-VTz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1556.9230769230769" y="71.800947867298575"/>
+            <point key="canvasLocation" x="1556.521739130435" y="71.651785714285708"/>
         </scene>
         <!--Camera View Controller-->
         <scene sceneID="JN1-Fi-VoG">
