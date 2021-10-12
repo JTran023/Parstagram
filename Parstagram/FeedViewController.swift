@@ -31,7 +31,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         query.limit = 20
         
         query.findObjectsInBackground { (posts, error) in
-            if (posts != nil) {
+            if posts != nil {
                 self.posts = posts!
                 self.tableView.reloadData()
             }
@@ -57,7 +57,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         let imageFile = post["image"] as! PFFileObject
         let urlString = imageFile.url!
         let url = URL(string: urlString)!
-        
+    
         cell.photoView.af_setImage(withURL: url)
         
         return cell
