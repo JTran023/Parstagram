@@ -208,7 +208,7 @@
         <!--Feed Navigation Controller-->
         <scene sceneID="5G0-d8-fpi">
             <objects>
-                <navigationController title="Feed Navigation Controller" automaticallyAdjustsScrollViewInsets="NO" id="0B9-i1-jDk" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" title="Feed Navigation Controller" automaticallyAdjustsScrollViewInsets="NO" id="0B9-i1-jDk" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3X8-Dx-vpx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
