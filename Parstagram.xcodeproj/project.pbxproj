@@ -132,16 +132,16 @@
 		612C6835271077EA00279F3B /* Parstagram */ = {
 			isa = PBXGroup;
 			children = (
-				612C6836271077EA00279F3B /* AppDelegate.swift */,
-				617A9CE32713AFE8005ACC7B /* PostCell.swift */,
-				612C6838271077EA00279F3B /* SceneDelegate.swift */,
-				612C683C271077EA00279F3B /* Main.storyboard */,
-				612C683F271077EE00279F3B /* Assets.xcassets */,
-				612C6841271077EE00279F3B /* LaunchScreen.storyboard */,
-				617F68C92710B9850088E656 /* CameraViewController.swift */,
 				612C6844271077EE00279F3B /* Info.plist */,
+				612C683F271077EE00279F3B /* Assets.xcassets */,
+				612C683C271077EA00279F3B /* Main.storyboard */,
+				612C6841271077EE00279F3B /* LaunchScreen.storyboard */,
+				612C6836271077EA00279F3B /* AppDelegate.swift */,
+				612C6838271077EA00279F3B /* SceneDelegate.swift */,
+				617F68C92710B9850088E656 /* CameraViewController.swift */,
 				6161617A27108B8200424840 /* LoginViewController.swift */,
 				6161617C27108BA500424840 /* FeedViewController.swift */,
+				617A9CE32713AFE8005ACC7B /* PostCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
